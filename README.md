@@ -47,7 +47,7 @@ Clone the source code from [this repo](https://github.com/linlichen/helloworld-j
 * `src\main\resources\templates\greeting.html` This dynamic html file is used together with `GreetingController.java` to generate the final html output. Basically, the `${locationName}` will be replaced with the value of the `locationName` variable in the `GreetingController.java` 
 
 # Build and Run
-- In Windowns Command Prompt or IntelliJ terminal, change directory to the root of the application, and run `mvn spring-boot:run`. It will then start build and deploy your application. Once it has finished, the website will be running at your localhost http://localhost:8080/.
+- In Windows Command Prompt or IntelliJ terminal, change directory to the root of the application, and run `mvn spring-boot:run`. It will then start build and deploy your application. Once it has finished, the website will be running at your localhost http://localhost:8080/.
 - You can terminate the web server by typing `ctrl-c` in the same command console thread.
 
 # References
